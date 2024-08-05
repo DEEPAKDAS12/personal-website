@@ -1,0 +1,84 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #0066ff, #00ccff);
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0.5rem 0;
+}
+
+main {
+    width: 80%;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #0066ff;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+}
+
+h3 {
+    color: #00ccff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5rem 0;
+    padding-left: 1rem;
+    text-indent: -1rem;
+}
+
+ul li::before {
+    content: "• ";
+    color: #0066ff;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+p {
+    margin: 0.2rem 0;
+}
+
+/* Add some spacing to sections */
+section h2, section h3 {
+    margin-top: 0;
+}
